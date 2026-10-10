@@ -475,7 +475,7 @@ class TabMenu {
 
         p.sendPlayerListHeader(
                 text("\n")
-                        .append(text("Crystalized: Crystal Blitz").color(LIGHT_PURPLE))
+                        .append(text("CosNet: Crystal Rush").color(LIGHT_PURPLE))
                         .append(text("\n"))
         );
 
@@ -500,7 +500,7 @@ class TabMenu {
             }
         }
         addToStatsString(text("\n---------------------------------------------------\n\n").color(GRAY)
-                .append(text("Crystal Blitz Version: " + crystalBlitz.getInstance().getDescription().getVersion())).color(DARK_GRAY).append(text("\n"))
+                .append(text("Crystal Rush Version: " + crystalBlitz.getInstance().getDescription().getVersion())).color(DARK_GRAY).append(text("\n"))
         );
 
         p.sendPlayerListFooter(StatsPlayerList);
