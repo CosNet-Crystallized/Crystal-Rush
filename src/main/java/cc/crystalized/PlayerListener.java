@@ -90,11 +90,11 @@ public class PlayerListener implements Listener {
             //TODO make this look better
             p.sendPlayerListHeaderAndFooter(
                     //Header
-                    text("\nCrystalized: Crystal Blitz\n"),
+                    text("\nCosNet: Crystal Rush\n"),
 
                     //Footer
                     text("\n")
-                            .append(text("Crystal Blitz Version: " + crystalBlitz.getInstance().getDescription().getVersion()))
+                            .append(text("Crystal Rush Version: " + crystalBlitz.getInstance().getDescription().getVersion()))
                             .append(text("\n"))
             );
             new QueueScoreboard(p);
